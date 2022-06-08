@@ -100,6 +100,32 @@
       function generation(){
          var temp = [...vie], cpt=0, i, j, k, p;
 
+         // Vous collez votre algorithme ici
+
+         // 1. Le tableau initial s'appelle vie.
+
+         // 2. Le tableau temporaire s'appelle temp.
+
+         // 3. la variable représentant le nombre de colonne s'appelle nc.
+
+         // 4. la variable représentant le nombre de ligne s'appelle nl.
+
+         // 5. Vous copiez uniquement les deux grandes boucles qui se trouvent dans votre fonction generation (dans votre C).
+
+         // 6. Vous collez la copie dans la fonction generation qui se trouve dans le fichier index.html fourni.
+
+         // 7. Laissez la fonction main, vous n'en aurez pas besoin ici.
+
+         // 8. Vous n'avez rien à modifier dans le code qui vous a été fourni.
+
+         // 9. Assurez vous qu'aucune variable n'a été déclarée dans une boucle for (dans votre code C)
+
+         // 10. Vous êtes sensés déclarer les variables dont vous aurez besoin à la première ligne de votre fontion generation(dans le code C; pour une question de lisibilité).
+
+         // 11. Une fois toutes les étapes réalisées, vous pouvez ouvrir l'index.html dans le navigateur.
+
+
+         /************************************************EXEMPLE*************************************/
          for(i = 0; i < nl; i++){
             for(j = 0; j < nc; j++){
                for(k = i-1; k < i+2; k++){
@@ -122,6 +148,7 @@
          for(i = 0; i < nl; i++)
             for(j = 0; j < nc; j++)
                vie[i*nc+j] = temp[i*nc+j];
+         /********************************FIN EXEMPLE*************************************************/
       }
 
       function play(){
