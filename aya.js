@@ -763,7 +763,7 @@
 	        this.c_svg.setAttribute("r", this.r * this.scale);
 	        
 
-	        this.c_svg.setAttribute("fill", "#A0522D");
+	        this.c_svg.setAttribute("fill", "#0066b8");
 
 	        this.c_svg.setAttribute("stroke",config.form.stroke);
 
@@ -771,11 +771,11 @@
 	        this.c_svg.setAttribute("stroke-width", config.form.strokeWidth);
 	    
 	      
-	        /** draw box */
-	        this.box.setAttributeNS(null, "stroke", config.box.stroke);
-	        this.box.setAttributeNS(null, "stroke-width", config.box.strokeWidth);
-	        this.box.setAttributeNS(null, "fill", "#A0522D");
-	        this.box.setAttribute("stroke-dasharray", config.box.strokeDasharray);
+	        // /** draw box */
+	        // this.box.setAttributeNS(null, "stroke", config.box.stroke);
+	        // this.box.setAttributeNS(null, "stroke-width", config.box.strokeWidth);
+	        // this.box.setAttributeNS(null, "fill", "#0066b8");
+	        // this.box.setAttribute("stroke-dasharray", config.box.strokeDasharray);
 
 	        
 	        svg.appendChild(this.c_svg);
@@ -783,7 +783,7 @@
 
 	        this.drawVertex();
 	        this.drawConnector();
-	        this.drawBox();
+	        // this.drawBox();
 
 	        this.c_points.map((point) => {
 	            point.draw(svg);
